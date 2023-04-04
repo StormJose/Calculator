@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Typefaces -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Calculator</title>
+  </head>
+  <body>
+    <section class="content">
+        <div class="container calculator-body">
+        <div class="display">
+          <div data-previous-operand class="display previous-operand"></div>
+          <div data-current-operand class="display current-operand"></div>
+        </div>
+        <div class="buttons">
+          <div class="btn--row">
+            <span class="btn ac">AC</span>
+            <span class="btn del">DEL</span>
+            <span data-action="divide" class="btn opr">÷</span>
+          </div>
+          <div class="btn--row">
+            <span class="btn num">7</span>
+            <span class="btn num">8</span>
+            <span class="btn num">9</span>
+            <span class="btn opr">*</span>
+          </div>
+          <div class="btn--row">
+            <span class="btn num">4</span>
+            <span class="btn num">5</span>
+            <span class="btn num">6</span>
+            <span  class="btn opr ">-</span>
+          </div>
+          <div class="btn--row">
+            <span class="btn num one">1</span>
+            <span class="btn num">2</span>
+            <span class="btn num">3</span>
+            <span  class="btn opr">+</span>
+          </div>
+          <div class="btn--row">
+            <span  class="btn">.</span>
+            <span class="btn num">0</span>
+            <span class="btn"></span>
+            <span class="btn equal">=</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/script.js"></script>
+  </body>
+</html>
